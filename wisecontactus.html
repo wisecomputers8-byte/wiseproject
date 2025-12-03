@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ELECTRONIC WAREHOUSE | Contact Us</title>
+
+    <meta name="description" content="Contact ELECTRONIC WAREHOUSE for laptops, gadgets, repairs, and accessories in Douala, Cameroon. Reach us directly on WhatsApp or email.">
+    <meta name="keywords" content="ELECTRONIC WAREHOUSE contact, laptop shop Douala, gadget store Cameroon">
+
+    <link rel="icon" type="image/x-icon" href="lg.png">
+
+    <style>
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 70px;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+}
+
+
+        .header {
+            background: rgba(0, 0, 0, 0.8);
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            height: 60px;
+        }
+
+        .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav ul li a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+
+
+.nav ul li a:hover {
+    color: #0f3460;
+    background-color: #00d4ff;
+    box-shadow: 0 0 15px #00d4ff, 0 0 30px #ff4ac1;
+}
+
+
+        .nav ul li a.active {
+            background-color: #00d4ff;
+            color: #0f3460;
+            font-weight: bold;
+        }
+
+
+
+.contact-section {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 2.2em;
+    text-shadow: 0 0 10px rgba(0,212,255,0.7);
+}
+
+.info-box {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    margin-top: 20px;
+}
+
+.info-box p {
+    margin: 10px 0;
+}
+
+.map {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #0f3460, #1a1a2e);
+            color: white;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .footer-container {    
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .footer-section h3 {
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin: 10px 0;
+        }
+
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section ul li a:hover {
+            color: #e74c3c;
+        }
+
+        .socials a {
+            color: white;
+            margin-right: 15px;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .socials a:hover {
+            color: #e74c3c;
+        }
+
+        .newsletter form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .newsletter input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .newsletter button {
+            padding: 10px;
+            background: #e74c3c;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .newsletter button:hover {
+            background: #c0392b;
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+.whatsapp-button:hover {
+    background-color: #00d4ff;
+    box-shadow: 0 0 20px #00d4ff, 0 0 40px #ff4ac1;
+}
+
+
+        .whatsapp-icon {
+            width: 35px;
+            height: 35px;
+        }
+
+        #result {
+            margin-top: 10px;
+            width: calc(100% - 40px);
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                width: 100%;
+                padding: 5px 10px;
+box-sizing: border-box;
+            }
+
+            .container1 {
+                width: 100%;
+padding: 0 10px;
+            }
+
+            .logo img {
+                width: 80px;
+                height: auto;
+            }
+
+            .nav ul {
+                flex-direction: row;
+                width: 100%;
+                gap: 3px;
+            }
+
+            .nav ul li a {
+                font-size: 0.9em;
+                padding: 8px;
+                margin-right: 5px;
+            }
+
+.display-section {
+    background-size: contain;      
+    background-position: center;    
+    background-repeat: no-repeat;   
+    width: 100%;                    
+    height: 30vh;                   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+    .display-section .text-box {
+                font-size: 0.9em; 
+        padding: 15px;
+    }
+
+            .text-box {
+                padding: 10px;
+                width: 80%;
+            }
+
+            .container {
+                max-width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product {
+                width: 100%;
+            }
+
+            .faq {
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background-color: #F4F4F4;
+                text-align: center;
+                margin-top: 20px;
+                max-width: 100%;
+            }
+
+            table {
+                max-width: 100%;
+                padding: 20px;
+                margin-bottom: 40px;
+                border-collapse: collapse;
+            }
+
+            .footer-section h3 {
+                font-size: 18px;
+            }
+
+    .whatsapp-button {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsapp-icon {
+        width: 28px;
+        height: 28px;
+    }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container1">
+        <div class="logo">
+            <img src="lg.png" alt="logo1">
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wiseabout.html">About Us</a></li>
+                <li><a href="wisecontactus.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+    <h2>Contact Us</h2>
+
+    <div class="info-box">
+        <h3>ELECTRONIC WAREHOUSE Douala</h3>
+
+        <p><b>📍 Location:</b> Akwa, Ancien 3eme, Abuja Market, Douala</p>
+        
+        <p><b>📞 Phone:</b> <a style="color:#00d4ff;">+237 640 282 650</a></p>
+
+        <p><b>💬 WhatsApp:</b> 
+            <a href="https://api.whatsapp.com/send?phone=237640282650" target="_blank" style="color:#00d4ff;">
+                +237 640 282 650
+            </a>
+        </p>
+
+        <p><b>📧 Email:</b> 
+            <a href="mailto:jrpossible1@gmail.com" style="color:#00d4ff;">
+                jrpossible1@gmail.com
+            </a>
+        </p>
+
+        <p><b>🕒 Working Hours:</b><br>Mon–Sat: 8:00 AM – 6:00 PM</p>
+
+        <div class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18..."
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>ELECTRONIC WAREHOUSE</h3>
+                <ul>
+                    <li>Akwa, Ancien 3eme</li>
+                    <li>Abuja Market</li>
+                    <li>Duoala</li>
+                </ul>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wiseabout.html">About Us</a></li>
+                    <li><a href="wisecontactus.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: jrpossible1@gmail.com</p>
+                <p>Phone: +237 640 282 650</p>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates and exclusive offers.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; ELECTRONIC WAREHOUSE</p>
+    </div>
+</footer>
+
+
+<a href="https://api.whatsapp.com/send?phone=237640282650" class="whatsapp-button" target="_blank">
+    <img src="whatsapp.png" class="whatsapp-icon" alt="Chat on WhatsApp">
+</a>
+
+</body>
+</html>
